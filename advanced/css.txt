@@ -1,0 +1,16 @@
+Begineer css projects
+
+1.background color change
+2.background image change using css
+3.importing another css file inside main css using import
+4.understanding min height and min width
+5.learnging top bottom left right 
+6.absolute relative 
+7.fixed
+8.sticky
+9.border-radius
+10.fixed image 
+11.box shadow
+12.understanding z-index 
+13.using rem em px 
+14.
