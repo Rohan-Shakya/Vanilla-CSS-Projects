@@ -1,0 +1,22 @@
+.btn-3 {
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.btn-3::after {
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+  width: 10%;
+  height: 5px;
+  background: #000000;
+  left: 0px;
+  bottom: 0;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.btn-3:hover {
+  width: 150%;
+}
