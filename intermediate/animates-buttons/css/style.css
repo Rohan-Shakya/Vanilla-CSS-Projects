@@ -1,3 +1,10 @@
+@import './module/btn-1.css';
+@import './module/btn-2.css';
+@import './module/btn-3.css';
+@import './module/btn-4.css';
+@import './module/btn-5.css';
+@import './module/btn-6.css';
+
 body {
   background-color: #9e8fb2;
   background-image: linear-gradient(315deg, #ad9bc7 0%, #eceefa 74%);
@@ -16,4 +23,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
 }
