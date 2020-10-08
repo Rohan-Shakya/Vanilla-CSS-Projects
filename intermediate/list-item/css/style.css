@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-bg-color: #000000;
+  --primary-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol {
+  width: 300px;
+  list-style: none;
+}
+
+ol li {
+  font-size: 1.2rem;
+  padding: 20px 30px;
+  margin: 10px 0;
+  background: rgb(23, 23, 23);
+  z-index: 100;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+ol li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+ol li:hover::before {
+  width: 100%;
+}
+
+ol li:nth-child(1)::before {
+  background-color: #4284f4;
+}
+
+ol li:nth-child(2)::before {
+  background-color: #db4437;
+}
+ol li:nth-child(3)::before {
+  background-color: #f4b400;
+}
+ol li:nth-child(4)::before {
+  background-color: #0f9d58;
+}
+
+ol li:nth-child(5)::before {
+  background-color: #cf0dd6;
+}
+
+ol li:nth-child(6)::before {
+  background-color: #f1600c;
+}
+
+ol li:nth-child(7)::before {
+  background-color: #27f10c;
+}
+ol li:hover {
+  transform: translateX(20px);
+}
